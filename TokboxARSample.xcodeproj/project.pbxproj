@@ -11,19 +11,31 @@
 		D9F6601D250BB3F1005AA0C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6601C250BB3F1005AA0C7 /* SceneDelegate.swift */; };
 		D9F6601F250BB3F1005AA0C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6601E250BB3F1005AA0C7 /* ContentView.swift */; };
 		D9F66021250BB3F6005AA0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F66020250BB3F6005AA0C7 /* Assets.xcassets */; };
-		D9F66024250BB3F6005AA0C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F66023250BB3F6005AA0C7 /* Preview Assets.xcassets */; };
 		D9F66027250BB3F6005AA0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F66025250BB3F6005AA0C7 /* LaunchScreen.storyboard */; };
+		D9F66031250BBBB3005AA0C7 /* PublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F66030250BBBB3005AA0C7 /* PublisherView.swift */; };
+		D9F66033250BBBEE005AA0C7 /* ARVideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F66032250BBBEE005AA0C7 /* ARVideoCapture.swift */; };
+		D9F66035250BBC40005AA0C7 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F66034250BBC40005AA0C7 /* ARView.swift */; };
+		D9F66037250BBD4A005AA0C7 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F66036250BBD4A005AA0C7 /* SessionService.swift */; };
+		D9F66039250BC500005AA0C7 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F66038250BC500005AA0C7 /* SessionView.swift */; };
+		FEAC925E6FCCE7A4FF0ED362 /* Pods_TokboxARSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B666A94814A71523EBCF1F /* Pods_TokboxARSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56A04E53B7AC785F056A2FF3 /* Pods-TokboxARSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokboxARSample.release.xcconfig"; path = "Target Support Files/Pods-TokboxARSample/Pods-TokboxARSample.release.xcconfig"; sourceTree = "<group>"; };
+		A290F9B7F67D839FA08E9848 /* Pods-TokboxARSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokboxARSample.debug.xcconfig"; path = "Target Support Files/Pods-TokboxARSample/Pods-TokboxARSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B666A94814A71523EBCF1F /* Pods_TokboxARSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokboxARSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F66017250BB3F1005AA0C7 /* TokboxARSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokboxARSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F6601A250BB3F1005AA0C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F6601C250BB3F1005AA0C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D9F6601E250BB3F1005AA0C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9F66020250BB3F6005AA0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D9F66023250BB3F6005AA0C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9F66026250BB3F6005AA0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F66028250BB3F6005AA0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F66030250BBBB3005AA0C7 /* PublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherView.swift; sourceTree = "<group>"; };
+		D9F66032250BBBEE005AA0C7 /* ARVideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVideoCapture.swift; sourceTree = "<group>"; };
+		D9F66034250BBC40005AA0C7 /* ARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		D9F66036250BBD4A005AA0C7 /* SessionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		D9F66038250BC500005AA0C7 /* SessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAC925E6FCCE7A4FF0ED362 /* Pods_TokboxARSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D15DC84C45D811089807F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B666A94814A71523EBCF1F /* Pods_TokboxARSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5493E8A093486C4056D7CF39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A290F9B7F67D839FA08E9848 /* Pods-TokboxARSample.debug.xcconfig */,
+				56A04E53B7AC785F056A2FF3 /* Pods-TokboxARSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D9F6600E250BB3F1005AA0C7 = {
 			isa = PBXGroup;
 			children = (
 				D9F66019250BB3F1005AA0C7 /* TokboxARSample */,
 				D9F66018250BB3F1005AA0C7 /* Products */,
+				5493E8A093486C4056D7CF39 /* Pods */,
+				4D15DC84C45D811089807F2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,23 +88,35 @@
 		D9F66019250BB3F1005AA0C7 /* TokboxARSample */ = {
 			isa = PBXGroup;
 			children = (
+				D9F66028250BB3F6005AA0C7 /* Info.plist */,
 				D9F6601A250BB3F1005AA0C7 /* AppDelegate.swift */,
-				D9F6601C250BB3F1005AA0C7 /* SceneDelegate.swift */,
 				D9F6601E250BB3F1005AA0C7 /* ContentView.swift */,
+				D9F6601C250BB3F1005AA0C7 /* SceneDelegate.swift */,
 				D9F66020250BB3F6005AA0C7 /* Assets.xcassets */,
 				D9F66025250BB3F6005AA0C7 /* LaunchScreen.storyboard */,
-				D9F66028250BB3F6005AA0C7 /* Info.plist */,
-				D9F66022250BB3F6005AA0C7 /* Preview Content */,
+				D9F6602F250BBBA2005AA0C7 /* Services */,
+				D9F6602E250BBB94005AA0C7 /* Views */,
 			);
 			path = TokboxARSample;
 			sourceTree = "<group>";
 		};
-		D9F66022250BB3F6005AA0C7 /* Preview Content */ = {
+		D9F6602E250BBB94005AA0C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D9F66023250BB3F6005AA0C7 /* Preview Assets.xcassets */,
+				D9F66034250BBC40005AA0C7 /* ARView.swift */,
+				D9F66030250BBBB3005AA0C7 /* PublisherView.swift */,
+				D9F66038250BC500005AA0C7 /* SessionView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9F6602F250BBBA2005AA0C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9F66032250BBBEE005AA0C7 /* ARVideoCapture.swift */,
+				D9F66036250BBD4A005AA0C7 /* SessionService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9F6602B250BB3F6005AA0C7 /* Build configuration list for PBXNativeTarget "TokboxARSample" */;
 			buildPhases = (
+				5C5FC1C6D3B18787E5CBDE86 /* [CP] Check Pods Manifest.lock */,
 				D9F66013250BB3F1005AA0C7 /* Sources */,
 				D9F66014250BB3F1005AA0C7 /* Frameworks */,
 				D9F66015250BB3F1005AA0C7 /* Resources */,
@@ -134,12 +179,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F66027250BB3F6005AA0C7 /* LaunchScreen.storyboard in Resources */,
-				D9F66024250BB3F6005AA0C7 /* Preview Assets.xcassets in Resources */,
 				D9F66021250BB3F6005AA0C7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C5FC1C6D3B18787E5CBDE86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokboxARSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9F66013250BB3F1005AA0C7 /* Sources */ = {
@@ -148,7 +217,12 @@
 			files = (
 				D9F6601B250BB3F1005AA0C7 /* AppDelegate.swift in Sources */,
 				D9F6601D250BB3F1005AA0C7 /* SceneDelegate.swift in Sources */,
+				D9F66037250BBD4A005AA0C7 /* SessionService.swift in Sources */,
+				D9F66039250BC500005AA0C7 /* SessionView.swift in Sources */,
 				D9F6601F250BB3F1005AA0C7 /* ContentView.swift in Sources */,
+				D9F66031250BBBB3005AA0C7 /* PublisherView.swift in Sources */,
+				D9F66033250BBBEE005AA0C7 /* ARVideoCapture.swift in Sources */,
+				D9F66035250BBC40005AA0C7 /* ARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +356,10 @@
 		};
 		D9F6602C250BB3F6005AA0C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A290F9B7F67D839FA08E9848 /* Pods-TokboxARSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TokboxARSample/Preview Content\"";
 				DEVELOPMENT_TEAM = KFZL23PDH7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TokboxARSample/Info.plist;
@@ -302,10 +376,10 @@
 		};
 		D9F6602D250BB3F6005AA0C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A04E53B7AC785F056A2FF3 /* Pods-TokboxARSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TokboxARSample/Preview Content\"";
 				DEVELOPMENT_TEAM = KFZL23PDH7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TokboxARSample/Info.plist;
