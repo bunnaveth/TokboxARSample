@@ -10,9 +10,12 @@ This is a sample SwiftUI application that takes an augmented reality scene and p
 4. Run the app from Xcode.
 5. Open a web browser to the OpenTok Playground https://tokbox.com/developer/tools/playground/ and join the session to observe the transmission.
 
-# Latency Issue
+# Custom AR Video Capture Issue
 
-When running the app on an iPhone 7 Plus, the latency is very noticeable.
-We would like to optimize the code to minimize this latency.
-We think there can be improvements made to the `Services/ARVideoCapture.swift` file.
-Any suggestions or code samples would be very helpful.
+When publishing an AR frame from a portrait orientation, the view from a subscriber's perspective results in a distorted image:
+
+![Portrait Distortion](portrait-distortion.png)
+
+Transmitting from a landscape orientation works as expected.
+
+This issue started occurring after upgrading Tokbox from version 2.18.0 to 2.20.0.
